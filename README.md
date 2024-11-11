@@ -102,7 +102,7 @@ pip install -r requirements.txt
 2. Train the Model:
 
 ```bash
-   python src/train_transformer.py
+   python src/transformer_SOC.py
 ```
 3. Evaluate and Plot: The script saves evaluation plots in the plots/ directory.
 
