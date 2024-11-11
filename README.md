@@ -81,3 +81,22 @@ Install dependencies:
 ```bash
 pip install -r requirements.txt
 ```
+
+### Running the Model
+1. Preprocess the data: Ensure the data is preprocessed and sequenced.
+
+2. Train the Model:
+
+```bash
+   python src/train_transformer.py
+```
+3. Evaluate and Plot: The script saves evaluation plots in the plots/ directory.
+
+### Future Work
+- **Model Optimization**: Further tuning of Transformer architecture and hyperparameters.
+- **Data Augmentation**: Synthesizing more training data to improve generalization.
+- **Hybrid Models**: Investigate hybrid LSTM-Transformer models for enhanced performance.
+
+### Contributions
+
+Contributions are welcome. Feel free to fork this repository, raise issues, or submit pull requests.
